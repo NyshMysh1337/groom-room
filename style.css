@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 1280px;
+    margin: auto;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    margin: auto;
+    height: 100px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+h1{
+    color: rgb(134, 97, 170);
+}
+.nav_link{
+    text-decoration: none;
+    color: gray;
+    margin-left: 60px;
+}
+.glav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.nad{
+
+}
+.glav_nad{
+    font-size: 40px;
+}
+form{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    margin-right: 40px;
+}
+.zaiv{
+    text-align: center;
+    align-items: center;
+}
+.zav{
+    padding: 10px;
+    margin-top: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+.soz{
+    align-items: center;
+    text-align: center;
+}
+.zap{
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+}
+.soz_glav{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px 80px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(88, 62, 129);
+}
+.galerea{
+    margin-top: 50px;
+}
+.galerea_foto{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.galerea_naz{
+    text-align: center;
+    font-size: 40px;
+}
+.foto_dog{
+    margin-left: 100px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 220px;
+    margin-top: 50px;
+
+}
+.foto{
+    width: 200px;
+    align-items: center;
+    padding: 10px;
+}
+.footer{
+    height: 100px;
+}
+.footer_nat{
+    align-items: center;
+    text-align: center;
+}
+.ewr{
+    margin-top: 50px;
+    
+}
+/*rtrth*/
+.section-project {
+	width: 900px;
+	margin: auto auto;
+	margin-top: 20px;
+}
+.text-project {
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+}
+.project {
+	display: flex;
+	margin: auto auto;
+	margin-top: 50px;
+	font-weight: bold;
+	font-size: 18px;
+	justify-content: space-evenly;
+	width: 800px;
+}
+.dog {
+	width:206px;
+	height:184px;
+	border-radius: 10px;
+}
+.name-project {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+/*reger*/
+.nav-zaiv{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
+}
+a:hover{
+    color:rgb(88, 62, 129); 
+}
+.opo{
+    padding: 30px 30px 0;
+    margin-left: 10px;
+}
+/*erh*/
+.left-section {
+	flex: 1;
+	height: 200px;
+	margin-left: 25%;
+}
+.text-name {
+	font-weight: bold;
+	font-size: 32px;
+	width: 555px;
+	margin-top: 100px;
+}
+.dogacat {
+	z-index: 2;
+	position:absolute;
+	margin-left: 3%;
+}
+.right-section {
+	width: 315px!important;
+	height: 325px;
+	border: 1px solid #F2F2F2;
+	border-radius: 12px;
+	text-align: center;
+	margin-left: 5%;
+	z-index: 1;
+	margin-top: 20px;
+}
+.text-vhod {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: left;
+	margin-top: 29px;
+	margin-left: 28px;
+	width: 315px!important;
+}
+.text-register {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	margin-top: 29px;
+	margin-left: 28px;
+	color: #c7c7c7 !important;
+}
+/*form*/
+.nad{
+ 
+}
+.zaiavki{
+    
+}
+.zaiavki-form{
+    display: flex;
+    border: 1px solid #F2F2F2;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 10px 300px 10px 10px;
+}
+.dogfoto{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
