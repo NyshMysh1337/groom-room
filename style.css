@@ -38,22 +38,25 @@ form{
     border-radius: 10px;
     width: 300px;
     height: 300px;
-    margin-top: 100px;
     margin-right: 40px;
+    margin-bottom: 40px;
 }
 .zaiv{
     text-align: center;
     align-items: center;
+    height: 700px;
 }
 .zav{
+    margin: 30px 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
     padding: 10px;
-    margin-top: 30px;
-    width: 200px;
-    border-radius: 10px;
 }
 .soz{
     align-items: center;
     text-align: center;
+    
 }
 .zap{
     margin-top: 40px;
@@ -68,14 +71,34 @@ form{
     color: white;
     background-color: rgb(88, 62, 129);
 }
-.galerea{
-    margin-top: 50px;
+.select{
+    width: 200px;
+    margin-bottom: 20px;
 }
-.galerea_foto{
-    margin-top: 100px;
+span{
+    color: red;
+}
+.galerea{
+    position: static;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-left: 330px;
+    width: 880px;
+    height: auto;
+    top: 48px;
+}
+.rez{
+    display: flex;
+    
+}
+.info{
+}
+.galerea_foto{
+    margin-top: 80px; 
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+    display: flex;
 }
 
 .galerea_naz{
@@ -97,6 +120,9 @@ form{
 }
 .footer{
     height: 100px;
+}
+footer{
+
 }
 .footer_nat{
     align-items: center;
@@ -201,9 +227,10 @@ a:hover{
 }
 .zaiavki-form{
     display: flex;
+    justify-content: space-between;
     border: 1px solid #F2F2F2;
-    margin-bottom: 50px;
     border-radius: 10px;
+    margin-top: 50px;
     padding: 10px 300px 10px 10px;
 }
 .dogfoto{

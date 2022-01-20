@@ -25,17 +25,17 @@
             Чтобы получить возможность<br>
             Отправить заявку</h2>
         </div>
-        <form>
+        <form id="reg">
             <div class="opo">
                 <a class="nav-zaiv">ВХОД</a>
                 <a class="nav-zaiv">Регистрация</a>
             </div>
             <div class="zaiv">
-                <input placeholder="Логин" class="zav" type="text"><br>
-                <input placeholder="Пароль" class="zav" type="text">
-            </div>
-            <div class="zap">
-                <a class="soz_glav" href="#">Записаться</a>
+                <div class="zaiv">
+                    <input type="email" class="zav" v-bind:value="valueEmail" v-on:input="inputEmail" placeholder="Введите Логин">
+                    <input type="password" class="zav" v-bind:value="valuePassword" v-on:input="inputPassword" placeholder="Введите Пароль">
+                    <button class="zav" type="button" v-on:click="consoleData">Войти</button>
+                </div>
             </div>
         </form>
     </div>
@@ -44,5 +44,7 @@
         <p class="footer_nat">groom-salon.com 2000-2999</p>
         </div>
     </div>
+    <script src="vue.js"></script>
+    <script src="add.js"></script>
 </body>
 </html>
