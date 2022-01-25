@@ -29,13 +29,16 @@ const app = new Vue({
       },
       applicationForm(){
         this.services.push({
-          url: "image/porodistye-sobaki-krasivye-kartinki-19.jpg",
+          url: "./public/image/porodistye-sobaki-krasivye-kartinki-19.jpg",
           name: this.valueInputName,
           option: this.selected,
           status: "Обрабатывается"
         });
         this.valueInputName = '';
         this.status = 'Обрабатывается'
+      },
+      goToMain: function () {
+        window.location.href = '/';
       },
   }
 });

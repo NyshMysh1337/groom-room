@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="./public/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <div class="head">
@@ -14,7 +14,7 @@
             <p>Service for dogs and cats</p>
         </div>
         <div class="head_nav">
-            <a href="index.html" class="nav_link">ГЛАВНАЯ</a>
+            <a href="index.php" class="nav_link">ГЛАВНАЯ</a>
             <a href="#" class="nav_link">ЗАЯВКИ</a>
             <a href="#" class="nav_link">КАБИНЕТ</a>
         </div>

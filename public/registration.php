@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <div class="head">
@@ -14,8 +14,8 @@
             <p>Service for dogs and cats</p>
         </div>
         <div class="head_nav">
-            <a href="index.html" class="nav_link">ГЛАВНАЯ</a>
-            <a href="registration.html" class="nav_link">ВХОД</a>
+            <a href="./public/index.php" class="nav_link">ГЛАВНАЯ</a>
+            <a href="./public/registration.php" class="nav_link">ВХОД</a>
         </div>
     </div>
 
@@ -28,7 +28,7 @@
         <form id="reg">
             <div class="opo">
                 <a class="nav-zaiv">ВХОД</a>
-                <a class="nav-zaiv">Регистрация</a>
+                <a class="nav-zaiv" v-on:click="openRegister" href="form-reg.php">Регистрация</a>
             </div>
             <div class="zaiv">
                 <div class="zaiv">
@@ -44,7 +44,7 @@
         <p class="footer_nat">groom-salon.com 2000-2999</p>
         </div>
     </div>
-    <script src="js/vue.js"></script>
-    <script src="js/add.js"></script>
+    <script src="./public/js/vue.js"></script>
+    <script src="./public/js/add.js"></script>
 </body>
 </html>
